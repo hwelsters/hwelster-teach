@@ -1,0 +1,201 @@
+.video-div {
+}
+
+.vid {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.tick {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  left: 50%;
+  margin-top: -1500px;
+  top: -400px;
+  margin-left: -50px;
+}
+
+.text-div {
+  position: 'absolute';
+  margin-left: 2%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.title-div {
+  background-color: rgb(16, 43, 97);
+  color: white;
+
+  border-radius: 1%;
+  margin-top: 15px;
+  width: 52%;
+}
+
+.video-title {
+  position: 'relative';
+  
+  margin-left: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+
+.description-div {
+  background-color: rgb(16, 43, 97);
+  color: white;
+
+  border-width: 100%;
+  border-radius: 1%;
+
+  margin-top: 10px;
+
+  height: 25%;
+  
+  width: 52%;
+}
+
+.video-description {
+  position: 'relative';
+  
+  margin-left: 10px;
+
+  margin-top: 5px;
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+}
+
+.dot {
+  position: 'absolute';
+  height: 15px;
+  width: 15px;
+  margin-top: -71px;
+  margin-left: 315px;
+  background: rgb(236, 186, 102);
+  border-radius: 50%;
+  z-index: 1;
+  right: auto
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: rgb(16, 43, 97);
+  text-align: left;
+  justify-content: center;
+}
+
+.syntax-error-logo {
+  height: 80%;
+  margin-top: 0.5%;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: rgb(16, 43, 97);
+  color: white;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 10px 10px;
+  display: block;
+}
+
+.modal-body button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  border-color: rgb(255, 255, 255);
+  border-width: 5px;
+  background-color: rgb(16, 43, 97);
+  border-radius: 8px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal-body button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.modal-body button:hover {
+  background-color: #3e8e41;
+}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  top: -375px;
+  left:-267px;
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 640px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
